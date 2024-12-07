@@ -32,7 +32,7 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    
+
     background-color: white;
     width: 250px;
     height: 515px;
@@ -72,10 +72,29 @@ form > div.campo{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
-
 }
 
+div.campo > label{
+    display: none;
+}
+div.campo > span{
+    color: white;
+    
+    font-size: 1em;
+    width: 40px;
+    padding: 5px;
+}
 
+div.campo > input{
+    background-color: #78f3ef;
+    font-size: e1m;
+    width: calc(100% - 45px);
+    transform: translateY(- 10px);
+    height: 100%;
+    border: 8px;
+    border-radius: 8px;
+    padding: 4px;
+}
 
 
 
